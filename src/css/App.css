@@ -1,19 +1,21 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
 }
 
 .App-header {
-  background-color: #9BF6FF;
+  background: -webkit-linear-gradient(#00A9FF, #C9EDFF); /* For Safari 5.1 to 6.0 */
   height: 100vh;
   width: 100vw;
   color: black;
 }
 
 .cloud {
-  margin-top: -450px;
-  position: fixed;
+  margin-top: -430px;
+  position: absolute;
   align-items: center;
   -webkit-animation: scrollingBackground 60s linear infinite;
+  z-index: 0;
 }
 
 @keyframes scrollingBackground {
@@ -22,7 +24,7 @@
 }
 
 .header-title {
-  padding-top: 37vh;
+  padding-top: 35vh;
 }
 
 .App-intro {
@@ -30,9 +32,12 @@
 }
 
 .myName{
-  font-size: 48px;
+  font-size: 60px;
+  font-weight: lighter;
 }
 
 .myTitle{
   font-size: 24px;
+  font-weight: lighter;
+  margin-top: -30px;
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import Gallery from './gallery.js';
 import cloud from './images/Cloud-PNG-9.png';
-import './App.css';
+import './css/App.css';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
             <p className='myTitle'>Full-Stack Developer</p>
           </div>
         </div>
+        <Gallery />
       </div>
     );
   }
