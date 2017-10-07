@@ -1,7 +1,9 @@
 .gallery {
   height: 100vh;
   width: 100vw;
-  background-color: white;
+  background-image: url('../images/sunset.jpeg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
   z-index: 2;
 }
  .gallery-items {
@@ -13,6 +15,15 @@
    flex-wrap: wrap;
  }
 
- .gallery-items img {
-   margin: 20px;
+ .gallery-items a {
+   height: 140px;
+   width: 250px;
+   background-color: lightgrey;
+   padding-top: 110px;
+   margin-right: 5%;
+   margin-left: 5%;
+   margin-top: 5%;
+   border-radius: 5px;
+   text-decoration: none;
+   color: black;
  }

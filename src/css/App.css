@@ -4,14 +4,14 @@
 }
 
 .App-header {
-  background: -webkit-linear-gradient(#00A9FF, #C9EDFF); /* For Safari 5.1 to 6.0 */
+  background: -webkit-linear-gradient(#49476D, #C06168, #FFA56C, #C69776); /* For Safari 5.1 to 6.0 */
   height: 100vh;
   width: 100vw;
   color: black;
 }
 
 .cloud {
-  margin-top: -430px;
+  margin-top: -150px;
   position: absolute;
   align-items: center;
   -webkit-animation: scrollingBackground 60s linear infinite;
@@ -25,6 +25,7 @@
 
 .header-title {
   padding-top: 35vh;
+  z-index: 1;
 }
 
 .App-intro {

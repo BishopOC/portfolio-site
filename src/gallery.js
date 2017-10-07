@@ -6,11 +6,11 @@ class Gallery extends Component {
     return (
       <div className='gallery'>
         <div className='gallery-items'>
-          <img src='http://via.placeholder.com/250x250'/>
-          <img src='http://via.placeholder.com/250x250'/>
-          <img src='http://via.placeholder.com/250x250'/>
-          <img src='http://via.placeholder.com/250x250'/>
-          <img src='http://via.placeholder.com/250x250'/>
+          <a href='#'>Recipe Keeper</a>
+          <a href='#'>Weather Data App</a>
+          <a href='#'>Fish Hawk Spirits</a>
+          <a href='#'>Youtube Mimic</a>
+          <a href='#'>Calculator</a>
         </div>
       </div>
     );
