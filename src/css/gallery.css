@@ -23,10 +23,9 @@
    margin-right: 5%;
    margin-left: 5%;
    margin-top: 25vh;
-   border-radius: 15px;
    text-decoration: none;
    color: rgba(255,255,255,0);
-   transition: 1s;
+   transition: 0.5s;
  }
 
 
