@@ -33,19 +33,20 @@
 }
 
 .navbar {
-  margin-top: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
   list-style-type: none;
+  margin: 0;
 }
 
 .navbar button{
+  width: 130px;
   background-color: rgba(0,0,0,0);
-  padding: 7px;
-  border: 2px solid rgba(0,0,0,0.7);
-  margin-right: 50px;
-  font-size: 32px;
+  border: 1px solid rgba(0,0,0,0.7);
+  margin-right: 40px;
+  margin-top: 20px;
+  font-size: 28px;
   font-weight: lighter;
   transition: 0.3s;
   color: rgba(0,0,0,1);
@@ -56,6 +57,29 @@
 .navbar button:hover {
   background-color: rgba(0,0,0,0.1);
   color: rgba(0,0,0,0.5);
+}
+
+.top-page {
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.top-page button {
+  width: 130px;
+  background-color: rgba(0,0,0,0.5);
+  border: 1px solid rgba(255,255,255,.7);
+  margin-right: 40px;
+  font-size: 28px;
+  font-weight: lighter;
+  transition: 0.3s;
+  color: rgba(255,255,255,1);
+  outline: none;
+
 }
 
 .App-intro {
