@@ -16,33 +16,44 @@
  }
 
  .gallery-items a {
-   height: 140px;
+   height: 290px;
    width: 250px;
    background-color: lightgrey;
    padding-top: 110px;
-   margin-right: 5%;
-   margin-left: 5%;
    margin-top: 25vh;
    text-decoration: none;
    color: rgba(255,255,255,0);
    transition: 0.5s;
+   line-height: 25px;
  }
 
+ .gallery-titles{
+   position:absolute;
+   margin-top: -150px;
+   list-style-type: none;
+   display: flex;
+ }
+ .gallery-titles li{
+   margin-left: 50px;
+   margin-right: 50px;
+   font-size: 24px;
+   font-weight: lighter;
+ }
 
  .recipe-link {
-   background-size: 320px 250px;
+   background-size: 490px 420px;
    background-position: center;
    background-image: url('../images/cuttingboard.jpg');
  }
 
  .weather {
-   background-size: 380px 250px;
+   background-size: 600px 420px;
    background-position: center;
    background-image: url('../images/weather.jpg');
  }
 
  .fishhawk {
-   background-size: 380px 250px;
+   background-size: 570px 420px;
    background-position: center;
    background-image: url('../images/fishhawk.jpg');
  }
@@ -50,4 +61,5 @@
  .gallery-items a:hover{
      box-shadow: inset 0px 0px 1000px 1000px rgba(0,0,0,.5);
      color: rgba(255,255,255,1);
+     line-height: 25px;
  }
